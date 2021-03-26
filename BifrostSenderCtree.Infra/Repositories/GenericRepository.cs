@@ -89,5 +89,6 @@ namespace BifrostSenderCtree.Infra.Repositories
             Database.Command.CommandText = $"DELETE FROM {TableName} WHERE {PrimaryKeys}={id}";
             return Task.FromResult(Database.Command.ExecuteNonQuery() > 0);
         }
+        
     }
 }
