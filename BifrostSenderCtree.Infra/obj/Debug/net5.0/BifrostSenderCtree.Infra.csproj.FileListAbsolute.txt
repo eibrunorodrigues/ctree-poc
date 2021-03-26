@@ -1,0 +1,16 @@
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/bin/Debug/net5.0/BifrostSenderCtree.Infra.deps.json
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/bin/Debug/net5.0/BifrostSenderCtree.Infra.dll
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/bin/Debug/net5.0/ref/BifrostSenderCtree.Infra.dll
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/bin/Debug/net5.0/BifrostSenderCtree.Infra.pdb
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/bin/Debug/net5.0/BifrostSenderCtree.Domain.dll
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/bin/Debug/net5.0/Ctree.Data.SqlClient.dll
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/bin/Debug/net5.0/BifrostSenderCtree.Domain.pdb
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/obj/Debug/net5.0/BifrostSenderCtree.Infra.csprojAssemblyReference.cache
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/obj/Debug/net5.0/BifrostSenderCtree.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/obj/Debug/net5.0/BifrostSenderCtree.Infra.AssemblyInfoInputs.cache
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/obj/Debug/net5.0/BifrostSenderCtree.Infra.AssemblyInfo.cs
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/obj/Debug/net5.0/BifrostSenderCtree.Infra.csproj.CoreCompileInputs.cache
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/obj/Debug/net5.0/BifrostSenderCtree.Infra.csproj.CopyComplete
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/obj/Debug/net5.0/BifrostSenderCtree.Infra.dll
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/obj/Debug/net5.0/ref/BifrostSenderCtree.Infra.dll
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/obj/Debug/net5.0/BifrostSenderCtree.Infra.pdb

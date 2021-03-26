@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BifrostSenderCtree.Domain/1.0.0": {
+        "dependencies": {
+          "CanaaCore.Utils": "0.0.3"
+        },
+        "runtime": {
+          "BifrostSenderCtree.Domain.dll": {}
+        }
+      },
+      "CanaaCore.Utils/0.0.3": {
+        "dependencies": {
+          "MongoDB.Bson": "2.11.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/CanaaCore.Utils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MongoDB.Bson/2.11.5": {
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.11.5.0",
+            "fileVersion": "2.11.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BifrostSenderCtree.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CanaaCore.Utils/0.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ts8PycjdX4OC5/BTRtJWuZ0XLL+yLl+GR/5XSsxAFhKmxTwQ9t3FI1ucJd8wt2oAsZuouORuMbH8g6bg5OoldA==",
+      "path": "canaacore.utils/0.0.3",
+      "hashPath": "canaacore.utils.0.0.3.nupkg.sha512"
+    },
+    "MongoDB.Bson/2.11.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OWsEN7ktxFKcynAMdv08TE5wkL1kkyWJUv+zhO3H3HcK+S4AU52AnxoyVmVSdPk5OWYoTtzbeCOIdmZV2dk5zg==",
+      "path": "mongodb.bson/2.11.5",
+      "hashPath": "mongodb.bson.2.11.5.nupkg.sha512"
+    }
+  }
+}

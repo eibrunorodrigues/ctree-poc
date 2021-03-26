@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "SrD3Zh86arooQexDrb+It/qtCSgz3Yvbn+Dqly3EhL4a70WcwSMRN5G0VHpon0WFuGf8jSTCSWa11OQbnfTZRw==",
+  "success": true,
+  "projectFilePath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/BifrostSenderCtree.Infra.csproj",
+  "expectedPackageFiles": [
+    "/home/bruno/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/bruno/.nuget/packages/canaacore.utils/0.0.3/canaacore.utils.0.0.3.nupkg.sha512",
+    "/home/bruno/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/bruno/.nuget/packages/mongodb.bson/2.11.5/mongodb.bson.2.11.5.nupkg.sha512",
+    "/home/bruno/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

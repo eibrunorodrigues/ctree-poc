@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Presentation/BifrostSenderCtree.Presentation.csproj": {}
+  },
+  "projects": {
+    "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/BifrostSenderCtree.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/BifrostSenderCtree.Domain.csproj",
+        "projectName": "BifrostSenderCtree.Domain",
+        "projectPath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/BifrostSenderCtree.Domain.csproj",
+        "packagesPath": "/home/bruno/.nuget/packages/",
+        "outputPath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bruno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.ambevdevs.com.br/nexus/repository/nuget-hosted/": {},
+          "https://pkgs.dev.azure.com/AMBEV-SA/AMBEV-BIFROST/_packaging/canaa-packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CanaaCore.Utils": {
+              "target": "Package",
+              "version": "[0.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/BifrostSenderCtree.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/BifrostSenderCtree.Infra.csproj",
+        "projectName": "BifrostSenderCtree.Infra",
+        "projectPath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/BifrostSenderCtree.Infra.csproj",
+        "packagesPath": "/home/bruno/.nuget/packages/",
+        "outputPath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bruno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.ambevdevs.com.br/nexus/repository/nuget-hosted/": {},
+          "https://pkgs.dev.azure.com/AMBEV-SA/AMBEV-BIFROST/_packaging/canaa-packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/BifrostSenderCtree.Domain.csproj": {
+                "projectPath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/BifrostSenderCtree.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "CanaaCore.Utils": {
+              "target": "Package",
+              "version": "[0.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Presentation/BifrostSenderCtree.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Presentation/BifrostSenderCtree.Presentation.csproj",
+        "projectName": "BifrostSenderCtree.Presentation",
+        "projectPath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Presentation/BifrostSenderCtree.Presentation.csproj",
+        "packagesPath": "/home/bruno/.nuget/packages/",
+        "outputPath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bruno/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.ambevdevs.com.br/nexus/repository/nuget-hosted/": {},
+          "https://pkgs.dev.azure.com/AMBEV-SA/AMBEV-BIFROST/_packaging/canaa-packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/BifrostSenderCtree.Domain.csproj": {
+                "projectPath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/BifrostSenderCtree.Domain.csproj"
+              },
+              "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/BifrostSenderCtree.Infra.csproj": {
+                "projectPath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Infra/BifrostSenderCtree.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

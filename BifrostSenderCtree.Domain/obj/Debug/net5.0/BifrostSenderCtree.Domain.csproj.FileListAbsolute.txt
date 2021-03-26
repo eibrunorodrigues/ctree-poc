@@ -1,0 +1,12 @@
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/bin/Debug/net5.0/BifrostSenderCtree.Domain.deps.json
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/bin/Debug/net5.0/BifrostSenderCtree.Domain.dll
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/bin/Debug/net5.0/ref/BifrostSenderCtree.Domain.dll
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/bin/Debug/net5.0/BifrostSenderCtree.Domain.pdb
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/obj/Debug/net5.0/BifrostSenderCtree.Domain.csprojAssemblyReference.cache
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/obj/Debug/net5.0/BifrostSenderCtree.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/obj/Debug/net5.0/BifrostSenderCtree.Domain.AssemblyInfoInputs.cache
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/obj/Debug/net5.0/BifrostSenderCtree.Domain.AssemblyInfo.cs
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/obj/Debug/net5.0/BifrostSenderCtree.Domain.csproj.CoreCompileInputs.cache
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/obj/Debug/net5.0/BifrostSenderCtree.Domain.dll
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/obj/Debug/net5.0/ref/BifrostSenderCtree.Domain.dll
+/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/obj/Debug/net5.0/BifrostSenderCtree.Domain.pdb

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Ctree.Data.SqlClient, Version=11.8.0.0, Culture=neutral, PublicKeyToken=0ce73727dc1039a8">
+        <HintPath>..\Library\Ctree.Data.SqlClient.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="10.1.1" />
+      <PackageReference Include="CanaaCore.Utils" Version="0.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BifrostSenderCtree.Domain\BifrostSenderCtree.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
