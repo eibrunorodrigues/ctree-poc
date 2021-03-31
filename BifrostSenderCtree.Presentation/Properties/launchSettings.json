@@ -1,11 +1,16 @@
-﻿{
+{
   "profiles": {
     "BifrostSenderCtree": {
       "commandName": "Project",
-      "dotnetRunMessages": "true",
       "environmentVariables": {
-        "DOTNET_ENVIRONMENT": "Development"
-      }
+        "BROKER_USER": "canaa",
+        "DOTNET_ENVIRONMENT": "Development",
+        "BROKER_VPN": "canaa-nonprod",
+        "BROKER_PORT": "5672",
+        "BROKER_HOST": "172.18.188.29",
+        "BROKER_PASS": "HuShu$CR"
+      },
+      "dotnetRunMessages": "true"
     }
   }
 }

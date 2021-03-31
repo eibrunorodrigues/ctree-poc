@@ -1,13 +1,12 @@
+using BifrostSenderCtree.Domain.Interfaces.Models;
 using System;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace BifrostSenderCtree.Domain.Entities.Feriados.Models
 {
-    public class FeriadosBifrostModel
+    public class FeriadosBifrostModel : IBaseModel
     {
-        [JsonPropertyName("data_operacao_promax")]
-        public DateTime DataOperacaoPromax { get; set; }
-
         [JsonPropertyName("codigo_empresa")] 
         public int CodigoEmpresa { get; set; }
 
@@ -37,5 +36,15 @@ namespace BifrostSenderCtree.Domain.Entities.Feriados.Models
 
         [JsonPropertyName("data_exclusao")] 
         public DateTime DataExclusao { get; set; }
+
+        public void FromString(string payloadModel)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override string ToString()
+        {
+            return JsonSerializer.Serialize(this);
+        }
     }
 }

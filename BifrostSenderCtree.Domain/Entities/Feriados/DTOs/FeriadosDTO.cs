@@ -1,17 +1,17 @@
 using System;
 using System.Globalization;
 using BifrostSenderCtree.Domain.Entities.Feriados.Models;
+using BifrostSenderCtree.Domain.Interfaces.Models;
 
 namespace BifrostSenderCtree.Domain.Entities.Feriados.DTOs
 {
     public static class FeriadosDTO
     {
-        public static FeriadosBifrostModel TransferData(FeriadosPromaxModel model)
+        public static IBaseModel TransferData(FeriadosPromaxModel model)
         {
             FeriadosBifrostModel transformedModel = new FeriadosBifrostModel();
             return new FeriadosBifrostModel
             {
-                DataOperacaoPromax = new DateTime(),
                 CodigoEmpresa = (int) model.CodigoEmpresa,
                 CodigoFilial = (int) model.Filial,
                 DataFeriado = Utils.Types.StringToDateTime(model.DataFeriado, "yyyyMMdd"),

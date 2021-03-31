@@ -5,10 +5,11 @@ using BifrostSenderCtree.Domain.Entities.Feriados.DTOs;
 using BifrostSenderCtree.Domain.Interfaces.Repositories;
 using BifrostSenderCtree.Domain.Interfaces.Services;
 using BifrostSenderCtree.Domain.Entities.Feriados.Models;
+using BifrostSenderCtree.Domain.Interfaces.Models;
 
 namespace BifrostSenderCtree.Domain.Entities.Feriados.Services
 {
-    public class FeriadoService : IBaseService<FeriadosPromaxModel>
+    public class FeriadoService : IGenericService, IBaseService<FeriadosPromaxModel>
     {
         public IBaseRepository<FeriadosPromaxModel> Repository { get; }
 
@@ -18,17 +19,16 @@ namespace BifrostSenderCtree.Domain.Entities.Feriados.Services
             Repository = repository;
         }
         
-        public Task<IEnumerable<FeriadosPromaxModel>> GetCursor()
+        public IEnumerable<FeriadosPromaxModel> GetBatch()
         {
-            var result = Repository.GetCursor();
+            var result = Repository.GetBatch();
             List<FeriadosBifrostModel> listOfFeriados = new List<FeriadosBifrostModel>();
             
             foreach (var entityModel in result)
             {
                 var model = FeriadosDTO.TransferData(entityModel);
-                Console.WriteLine(model);
+                yield return (FeriadosPromaxModel)model;
             }
-            return Task.FromResult(result);
         }
 
         public Task<IEnumerable<FeriadosPromaxModel>> Find(string filters)

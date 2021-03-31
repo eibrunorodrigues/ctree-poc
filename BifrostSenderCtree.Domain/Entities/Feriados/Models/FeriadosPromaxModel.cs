@@ -1,3 +1,4 @@
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using BifrostSenderCtree.Domain.Interfaces.Models;
 
@@ -41,6 +42,11 @@ namespace BifrostSenderCtree.Domain.Entities.Feriados.Models
         public void FromString(string payloadModel)
         {
             throw new System.NotImplementedException();
+        }
+
+        public override string ToString()
+        {
+            return JsonSerializer.Serialize(this);
         }
     }
 }

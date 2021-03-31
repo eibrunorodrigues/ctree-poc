@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "i3D9gxYiY/vwGmKEPx7poOSGfgaHWJVEErrGjcmSl3He73pJWcz5zhlchdgL3oORC61R+s1qfnjoinxdPWrY8A==",
+  "dgSpecHash": "taDQ2oLNWFRDBGG4CrASb+GNFc+TvlE3AjRDYgb/ZL2820Pwe3FaxPDnoYP/FiPRe1Rs6B+3pqpZ9ULf/RSTOQ==",
   "success": true,
-  "projectFilePath": "/home/bruno/projects/BifrostSenderCtree/BifrostSenderCtree.Domain/BifrostSenderCtree.Domain.csproj",
+  "projectFilePath": "C:\\projects\\ctree-poc\\BifrostSenderCtree.Domain\\BifrostSenderCtree.Domain.csproj",
   "expectedPackageFiles": [
-    "/home/bruno/.nuget/packages/canaacore.utils/0.0.3/canaacore.utils.0.0.3.nupkg.sha512",
-    "/home/bruno/.nuget/packages/mongodb.bson/2.11.5/mongodb.bson.2.11.5.nupkg.sha512"
+    "C:\\Users\\USER\\.nuget\\packages\\canaacore.utils\\0.0.3\\canaacore.utils.0.0.3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\mongodb.bson\\2.11.5\\mongodb.bson.2.11.5.nupkg.sha512"
   ],
   "logs": []
 }

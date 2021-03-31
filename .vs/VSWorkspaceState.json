@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "\\BifrostSenderCtree.Domain",
+    "\\BifrostSenderCtree.Domain\\Interfaces",
+    "\\BifrostSenderCtree.Domain\\Interfaces\\Repositories",
+    "\\BifrostSenderCtree.Domain\\Process",
+    "\\BifrostSenderCtree.Domain\\Process\\Services"
+  ],
+  "PreviewInSolutionExplorer": false
+}

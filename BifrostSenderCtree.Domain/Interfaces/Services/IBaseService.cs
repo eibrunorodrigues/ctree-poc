@@ -6,7 +6,7 @@ namespace BifrostSenderCtree.Domain.Interfaces.Services
 {
     public interface IBaseService<T> where T : class
     {
-        Task<IEnumerable<T>> GetCursor();
+        IEnumerable<T> GetBatch();
 
         Task<IEnumerable<T>> Find(string filters);
 

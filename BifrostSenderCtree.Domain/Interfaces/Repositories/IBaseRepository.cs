@@ -6,7 +6,7 @@ namespace BifrostSenderCtree.Domain.Interfaces.Repositories
 {
     public interface IBaseRepository<T> where T: IBaseModel, new()
     {
-        IEnumerable<T> GetCursor();
+        IEnumerable<T> GetBatch();
 
         Task<IEnumerable<T>> Find(string filters);
         

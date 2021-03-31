@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Worker">
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
 
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
@@ -9,10 +9,20 @@
     <ItemGroup>
       <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
       <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+      <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\BifrostSenderCtree.Domain\BifrostSenderCtree.Domain.csproj" />
       <ProjectReference Include="..\BifrostSenderCtree.Infra\BifrostSenderCtree.Infra.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="CanaaBlueprint">
+        <HintPath>..\..\canaa-blueprint-csharp\CanaaBlueprint\bin\Debug\net5.0\CanaaBlueprint.dll</HintPath>
+      </Reference>
+      <Reference Include="CanaaInfraRabbitMQ">
+        <HintPath>..\..\canaa-infra-rabbitmq-csharp\CanaaInfraRabbitMQ\bin\Debug\net5.0\CanaaInfraRabbitMQ.dll</HintPath>
+      </Reference>
     </ItemGroup>
 </Project>

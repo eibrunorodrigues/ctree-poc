@@ -17,9 +17,9 @@ namespace BifrostSenderCtree.Domain.Process.Services
             Repository = repository;
         }
         
-        public Task<IEnumerable<ProcessTableModel>> GetCursor()
+        public IEnumerable<ProcessTableModel> GetBatch()
         {
-            return Task.FromResult(Repository.GetCursor());
+            return Repository.GetBatch();
         }
 
         public Task<IEnumerable<ProcessTableModel>> Find(string filters)
